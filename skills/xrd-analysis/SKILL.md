@@ -19,3 +19,5 @@ For Bruker RAW4 input, the bundled [RAW4 parser](scripts/bruker_raw4_analyzer.py
 python scripts/bruker_raw4_analyzer.py --data-dir <raw-files> --output-dir <output>
 ```
 
+The [phase-matching checklist](references/phase-matching-qc.md) and [synthetic peak list](examples/synthetic-peaks.csv) illustrate the evidence needed before claiming a phase.
+

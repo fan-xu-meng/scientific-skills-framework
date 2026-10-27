@@ -15,3 +15,5 @@ metadata:
 
 Export raw points, background, components, total fit, residuals, parameter table, and source provenance for each region.
 
+Use the [fit-report checklist](references/fit-report-qc.md) and [synthetic component table](examples/synthetic-components.csv) to keep constraints and assumptions visible. The [component-table auditor](scripts/audit_component_table.py) checks only numeric integrity; the example values do not identify a measured chemical state.
+

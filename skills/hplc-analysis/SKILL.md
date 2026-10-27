@@ -15,3 +15,5 @@ metadata:
 
 If OpenLAB provides a stored concentration, verify that it uses the same standards and units as the actual preparation sheet before using it.
 
+For the result-container structure, read the [original OpenLAB parsing note](references/agilent-openlab-rslt.md). The [OpenLAB RID parser](scripts/hplc_openlab_adaptive.py) has method-specific compound names and windows; verify them with standards before use. The [synthetic calibration example](examples/synthetic-calibration.md) shows the reporting fields without publishing experiment data.
+

@@ -15,3 +15,5 @@ metadata:
 
 Do not infer a molecule's isotope origin from a single ion channel without checking fragmentation and coelution.
 
+The [isotope-ratio audit](references/isotope-ratio-audit.md) and [synthetic ion table](examples/synthetic-ion-table.csv) describe an exported-data check. The [scan-ratio helper](scripts/scan_ion_ratios.py) computes raw channel ratios only; it does not replace raw-scan parsing or compound identification.
+

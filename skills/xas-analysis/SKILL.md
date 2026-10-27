@@ -16,3 +16,5 @@ metadata:
 
 Do not treat a low residual alone as evidence for a unique coordination structure.
 
+For R-space fitting displays and back-transform checks, read the [original fitting-display note](references/r-space-fit-display.md). The [fit-parameter budget helper](scripts/fit_parameter_budget.py) and [synthetic fit audit](examples/synthetic-fit-audit.md) show how to label an underdetermined result.
+

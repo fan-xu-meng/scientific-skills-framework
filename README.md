@@ -2,7 +2,7 @@
 
 Agent skills for scientific data analysis, organized as small, task-specific folders. The collection covers electrochemistry, chromatography, spectroscopy, microscopy, and materials characterization.
 
-Each folder in [`skills/`](skills/) has a `SKILL.md` entry point and, where useful, a script. This follows the open [Agent Skills specification](https://agentskills.io/specification): an agent can discover a skill from its name and description, then load its instructions when needed.
+Each folder in [`skills/`](skills/) has a `SKILL.md` entry point plus task-specific `examples/`, `references/`, and `scripts/`. This follows the open [Agent Skills specification](https://agentskills.io/specification): an agent can discover a skill from its name and description, then load its instructions and supporting resources when needed.
 
 ## Skills
 
@@ -22,6 +22,8 @@ npx skills add fan-xu-meng/scientific-skills-framework
 ```
 
 You can also copy one folder from `skills/` into your agent's skills directory. Read its `SKILL.md` for input requirements, checks, and any bundled script. Scripts operate on data paths supplied by the user; instrument calibration and scientific interpretation still need review against the original records.
+
+Examples are synthetic or otherwise de-identified and are labelled accordingly. References are original workflow notes; third-party PDFs and scanned manuals are not redistributed. Some scripts are narrow QC or arithmetic helpers rather than complete instrument-analysis pipelines. Review each script's stated assumptions before using it on new data.
 
 ## Validate
 

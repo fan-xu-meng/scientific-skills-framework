@@ -1,0 +1,3 @@
+region,component,center_eV,fwhm_eV,area_counts_eV,qc
+M_2p,component_A,100.0,1.2,1000,pending_assignment
+M_2p,component_B,102.0,1.3,300,pending_assignment

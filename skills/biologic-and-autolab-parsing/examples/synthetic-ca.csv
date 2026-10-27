@@ -1,0 +1,4 @@
+source_file,time_s,current_A,potential_V,charge_C
+invented_session,0,0.000100,0.50,0
+invented_session,10,0.000100,0.50,0.001
+invented_session,20,0.000100,0.50,0.002

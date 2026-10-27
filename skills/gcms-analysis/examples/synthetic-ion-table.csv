@@ -1,0 +1,5 @@
+run,scan,time_min,mz,intensity
+invented_standard,1,2.00,44,1000
+invented_standard,1,2.00,46,50
+invented_sample,1,2.01,44,800
+invented_sample,1,2.01,46,120

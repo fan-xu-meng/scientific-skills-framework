@@ -73,6 +73,10 @@ def main() -> int:
             errors.append(f"{skill_dir.name}: invalid skill name")
         if "description" not in props:
             errors.append(f"{skill_dir.name}: missing description")
+        for resource_dir in ("examples", "references", "scripts"):
+            directory = skill_dir / resource_dir
+            if not directory.is_dir() or not any(path.is_file() for path in directory.rglob("*")):
+                errors.append(f"{skill_dir.name}: missing or empty {resource_dir}/")
 
     for path in ROOT.rglob("*"):
         if any(part in FORBIDDEN_PARTS for part in path.parts):
@@ -81,7 +85,7 @@ def main() -> int:
             continue
         if path.suffix.lower() in {".pyc", ".pyo"} or path.name == ".DS_Store":
             errors.append(f"forbidden generated file: {path.relative_to(ROOT)}")
-        if path.suffix.lower() not in {".md", ".py", ".yaml", ".yml", ".json", ".txt"}:
+        if path.suffix.lower() not in {".md", ".py", ".yaml", ".yml", ".json", ".txt", ".csv"}:
             continue
         try:
             text = path.read_text(encoding="utf-8")

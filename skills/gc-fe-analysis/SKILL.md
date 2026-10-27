@@ -15,3 +15,5 @@ metadata:
 
 Keep the raw peak areas, calibration table, aligned charge table, and final FE table as separate reproducible outputs.
 
+The [OpenLAB GC parser](scripts/gc_openlab_adaptive.py) supports `.rslt` sequences. Its compound names and retention windows are method defaults that must be reviewed against standards. See the [original parser notes](references/openlab-qc.md) and [synthetic example](examples/synthetic-peak-table.csv).
+

@@ -15,3 +15,5 @@ metadata:
 
 For Faradaic efficiency, pair the quantified amount with the corresponding electrochemical charge interval and explicitly state the electron count.
 
+The [integration checklist](references/integration-qc.md) and [synthetic peak table](examples/synthetic-peak-table.csv) show the minimum provenance and QC fields without publishing spectra. The [peak-ratio helper](scripts/fit_peak_ratio_table.py) checks a reviewed exported table, not raw spectra.
+

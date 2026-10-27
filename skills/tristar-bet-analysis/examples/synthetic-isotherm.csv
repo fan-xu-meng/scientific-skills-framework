@@ -1,0 +1,5 @@
+sample,branch,relative_pressure,adsorbed_quantity_cm3_g_stp
+invented_A,adsorption,0.05,4.2
+invented_A,adsorption,0.10,6.0
+invented_A,adsorption,0.15,7.5
+invented_A,desorption,0.15,8.0

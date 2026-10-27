@@ -1,0 +1,5 @@
+injection,compound,retention_time_min,area_mV_min,standard_ppm
+blank,H2,0.580,0.0,0
+standard_1,H2,0.582,5.0,100
+standard_2,H2,0.584,10.1,200
+sample_1,H2,0.583,7.4,

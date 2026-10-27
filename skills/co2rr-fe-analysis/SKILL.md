@@ -17,3 +17,5 @@ Work from measured charge, calibrated product amount, and an explicit reaction s
 
 Do not use stored calibration coefficients from another instrument or date without a documented cross-check. Distinguish CO2 feed, CO2 carryover, and carbon in products when defining utilization.
 
+For an already calibrated, interval-aligned product-amount table, the [FE calculator](scripts/calculate_fe.py) provides a small independent arithmetic check. See the [synthetic input](examples/synthetic-fe-input.csv) and [input contract](references/fe-input-contract.md); it does not perform GC/HPLC calibration or carbon-balance accounting.
+

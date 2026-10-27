@@ -23,3 +23,5 @@ python scripts/ec_biologic_autolab_parser.py --data-dir <sessions> --output-dir 
 
 Review the parser's format assumptions against one representative file from each instrument before processing a batch.
 
+Use the [column and charge audit](references/column-and-charge-audit.md) when selecting channels; the [synthetic trace](examples/synthetic-ca.csv) is only an input-format illustration.
+

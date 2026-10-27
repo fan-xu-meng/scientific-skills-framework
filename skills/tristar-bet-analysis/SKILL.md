@@ -19,3 +19,5 @@ The bundled [TriStar processor](scripts/process_all_bet.py) accepts explicit inp
 python scripts/process_all_bet.py --data-root <SMP-and-REP-folder> --out-dir <output>
 ```
 
+Read the [fit-range checklist](references/bet-fit-qc.md) before accepting an automated result. The [synthetic isotherm rows](examples/synthetic-isotherm.csv) illustrate the output schema, not a valid BET fit.
+

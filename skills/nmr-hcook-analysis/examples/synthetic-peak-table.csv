@@ -1,0 +1,5 @@
+sample,formate_area,internal_standard_area,known_formate_mM,qc
+blank,0,100,0,pass
+standard_1,20,100,1,pass
+standard_2,40,100,2,pass
+unknown,30,100,,pending_spectrum_review

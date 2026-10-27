@@ -17,3 +17,5 @@ Use CO as the feed and do not count unreacted CO as a product. Keep the electron
 
 If CO2 is detected, distinguish feed impurity or crossover from products of CO conversion before assigning a pathway.
 
+The [FE calculator](scripts/calculate_fe.py) checks arithmetic after calibration and charge-window alignment. Its [synthetic input](examples/synthetic-fe-input.csv) and [input contract](references/fe-input-contract.md) illustrate the format; unreacted CO must not appear as a product row.
+

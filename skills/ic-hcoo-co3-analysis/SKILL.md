@@ -15,3 +15,5 @@ metadata:
 
 The workflow should remain reproducible from chromatograms, standard recipes, and a saved parameter table.
 
+Use the [IC calibration contract](references/calibration-and-speciation.md) and [synthetic standards](examples/synthetic-standards.csv) to check units and carbonate terminology before quantification. The [standard-table fit helper](scripts/fit_standard_table.py) is only an arithmetic check after peak integration.
+

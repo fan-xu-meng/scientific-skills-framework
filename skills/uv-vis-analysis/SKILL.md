@@ -15,3 +15,5 @@ metadata:
 
 For Cary BSW, use the bundled [binary reader](scripts/read_bsw_uv.py). For CSV exports, use the [CSV analyzer](scripts/uv_cary_csv_adaptive.py) after checking that its expected column layout matches the file.
 
+For the tested BSW layout and known limits, read the [BSW parsing reference](references/bsw-workflow.md). An invented [calibration example](examples/synthetic-calibration.md) illustrates range checks.
+
