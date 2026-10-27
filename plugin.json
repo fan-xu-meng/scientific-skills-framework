@@ -1,0 +1,11 @@
+{
+  "name": "scientific-skills-framework",
+  "version": "1.0.0",
+  "description": "Reusable agent skills for electrochemistry, chromatography, spectroscopy, microscopy, and materials characterization.",
+  "author": {
+    "name": "Fanxu Meng"
+  },
+  "repository": "https://github.com/fan-xu-meng/scientific-skills-framework",
+  "license": "Apache-2.0"
+}
+
